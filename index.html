@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+</head>
+
+<body>
+  <h1>Would you like to sign up for a library card?</h1>
+  <p>Please fill out the information below!</p>
+  <form action="action_page.php"><!--Library Card Form-->
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <br>
+  Adress:<br>
+  <input type="text" name="lastname">
+  <br>
+  City:<br>
+  <input type="text" name="lastname">
+  <br>
+  State:<br>
+  <input type="text" name="lastname">
+  <br>
+  Zip Code:<br>
+  <input type="text" name="lastname">
+  
+  <!--Radio Button-->
+  <br><br>
+  <input type="radio" name="sex" value="male" checked>Male
+  <br>
+  <input type="radio" name="sex" value="female">Female
+  <br><br>
+  
+  <!--Submit Button-->
+  Birthday:<br>
+  <input type="text" Date="Birth Date" value="MM/DD/YYYY">
+  <br><br>
+  
+  <!--Drop Down-->
+Have you had a library card before?<br>
+  <select>
+    <option value="fiction">Yes</option>
+    <option value="non-fiction">No</option>
+    <option value="sci-fi">Maybe</option>
+    <option value="adventure">Yes, I'd like to renew mine</option>
+  </select><br><br>
+  
+  <!--Check Box-->
+  What genres of books do you like? Check all that apply.<br>
+  <form action="demo_form.asp" method="get">
+    <input type="checkbox" name="name" value="value"> Fiction<br>
+  <form action="demo_form.asp" method="get">
+    <input type="checkbox" name="name" value="value"> Non Fiction<br>
+  <form action="demo_form.asp" method="get">
+    <input type="checkbox" name="name" value="value"> Sci-fi/Fantasy<br>
+  <form action="demo_form.asp" method="get">
+    <input type="checkbox" name="name" value="value"> Adventure<br>
+  <form action="demo_form.asp" method="get">
+    <input type="checkbox" name="name" value="value"> Mystery<br>
+  <form action="demo_form.asp" method="get">
+    <input type="checkbox" name="name" value="value"> American Lit<br>
+  <form action="demo_form.asp" method="get">
+    <input type="checkbox" name="name" value="value"> Thriller<br>
+  <form action="demo_form.asp" method="get">
+    <input type="checkbox" name="name" value="value"> Other<br><br>
+  
+  <!--Long Text-->
+  <textarea rows="5" cols="50">
+  Please write here why you'd like a Library card.
+  </textarea><br><br>
+  
+  <!--Submit Button-->
+  <input type="submit" value="Submit">
+  </form>
+  </form>
+<body>
+</html>
